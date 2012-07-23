@@ -1,0 +1,17 @@
+/* 
+
+SAND: 		#959485
+BROWN: 		#685d54
+PINK: 		#ed0f69
+L. BLUE: 	#b9e5fb
+
+*/
+.ieWater {
+	background: #fff url(../img/bg-water.png) repeat-x center bottom;
+	height: 200px;
+}
+#logo  {
+	width: 960px;
+	height: 200px;
+	background: #fff url(../img/bg-water.png) repeat-x center bottom;
+}
