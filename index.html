@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Molajo, A Joomla! based Web Application Development Environment</title>
+<title>Molajo, Flexible and Unrestricted Web Application Development Environment</title>
 <meta name="description" content="">
 <meta name="author" content="Molajo Team">
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
@@ -11,153 +11,75 @@
 <link rel="shortcut icon" href="/favicon.ico">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="css/style.css?v=1">
-<!--[if IE ]>
-	<link rel="stylesheet" href="css/ie.css?v=1">
-<![endif]-->
-<link rel="stylesheet" media="handheld" href="css/handheld.css?v=1">
-<script src="js/modernizr-1.6.min.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 
 </head>
 <!--[if (gt IE 9)|!(IE)]><!--> <body> <!--<![endif]-->
-<div id="jPond">
+<div id="container">
 	
-	<div class="form-contact clearfix">
-	
-		<div class="toggle-contact">
-			<button class="btn-toggle">Contact us</button>
+	<header id="mast">
+		<div id="logo" class="cf">
+    		<img class="logo-molajo" src="img/molajo-logo.png" alt="Molajo logo" />
+    		<a href="http://www.twitter.com/molajo"><img class="twitter" src="img/twitter.png" alt="Follow Molajo on Twitter" /></a>
 		</div>
-	
-		<div class="form clearfix">
-			
-				<div class="done">
-					<b>Thanks!</b> We have received your message and will reach you shortly. 
-				</div>
-				
-				<div class="contact clearfix">
-					<h1>Thanks for your interest.</h1>
-					<p>Please let us know how you would like to help and we will get back with you shortly.</p>
-					<form method="post" action="scripts/process.php">
-						<div class="clearfix cfContainer">
-							<div class="elements0">
-								<p class="element">
-									<p><label>Name</label></p>
-									<p><input type="text" name="name" class="text" /></p>
-								</p>
-								<p class="element">
-									<p><label>Email</label></p>
-									<p><input type="text" name="email" class="text" /></p>
-								</p>
-								<p class="element">
-									<p><label>Website</label></p>
-									<p><input type="text" name="website" class="text" /></p>
-								</p>
-							</div>	
-							<div class="elements1">
-								<p class="element">
-									<p><label>Comment</label></p>
-									<p><textarea name="comment" class="text textarea" /></textarea></p>
-								</p>
-								<p class="element">
-									<input type="submit" id="submit" value="submit" />
-									<div class="loading"></div>
-								</p>
-							</div>
-						</div>	
-					</form>
-				</div>
-		</div>
-		
-	</div>
-	
-	<header id="water">
-		<!--[if IE ]>
-		<div class="ieWater">
-		<![endif]-->
-		<div id="logo">
-		<p class="logo-jzg">Molajo, A Joomla! 1.6 Distribution from ATAAW</p>
-		<img class="logo-jzg" src="img/molajo-logo.png" alt="Molajo, Joomla 1.6 Distribution logo" />
-		<a href="http://www.twitter.com/molajo"><img class="twitter" src="img/twitter.png" alt="Follow Molajo on Twitter" /></a>
-		</div>
-		<!--[if IE ]>
-			</div>
-		<![endif]-->
 	</header>
-<div id="mud">
-		<div class="divvy">
-			<h2>Molajo&trade;</h2>
-		    <p><a href="http://molajo.org/">Molajo</a> means from Joomla! - it is a name created from the letters of the Joomla! name. In much the same manner, Molajo is an web development environment based on the Joomla framework for crafting custom solutions from simple to complex custom data architecture, presentation output, and access control.<br /><br />
-		    </p>
-		    
-		<div id="mMedia" class="clearfix">
-			<iframe class="vimeo" src="http://player.vimeo.com/video/23799119?title=0&amp;byline=0&amp;portrait=0" width="300" height="225" frameborder="0"></iframe>
-			<iframe class="slideshare" src="http://www.slideshare.net/slideshow/embed_code/7968308" width="300" height="225" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
-				<a href="http://www.google.com/crisisresponse/japanquake2011.html"><img src="img/helpJapan-300x225.jpg" alt="" /></a>
-			</span>
-		</div>
-		
-		<div class="contributors">
-		    <h2>Contributors and Leadership</h2>
-           
-	        <ul>
-	        <li>
-	        <a href="http://twitter.com/AmyStephen">Amy Stephen</a>
-	        </li>
-	        <li>
-	        <a href="http://twitter.com/crossinghippos">Babs Gösgens</a>
-	        </li>
-	          <li>
-	          <a href="http://twitter.com/nightshiftc">Cristina Solana</a>
-	          </li>
-	          <li>
-	          <a href="http://twitter.com/betweenbrain">Matt Thomas</a>
-	          </li>
-	        </ul>
+    <div id="main-content">
+        <h2>What is Molajo&trade;?</h2>
+        <p><a href="http://molajo.org/">Molajo</a> means from Joomla! - it is a name created from the letters of the Joomla! name. In much the same manner, Molajo is an web development environment based on the Joomla framework for crafting custom solutions from simple to complex custom data architecture, presentation output, and access control.
+        </p>
 
-		<div class="divvy">
-    	<h1>All Together, As A Whole</h1>
-    	    <p>The goal of <a href="http://alltogetherasawhole.org/">All Together, As A Whole</a> (ATAAW) is to engage and empower the Joomla!&reg; community of developers  and site builders in order to increase our shared resources and  strengthen our ecosystem. ATAAW is a network of nearly 1,000 Joomla!  professionals. In its first year, ATAAW has accomplished a great deal,  including contributing to such projects as the <a href="http://magazine.joomla.org/">Joomla! Community Magazine</a>, <a href="http://joomlaforward.org/">Joomla! Forward</a>, <a href="http://joomstew.org/">JoomStew Radio,</a> and the <a href="http://twitter.com/ATAAWMovies">ATAAW Movies</a>.</p>
-    	      <p>ATAAW is very proud to introduce two new initiatives: <a href="http://molajo.org/">Molajo</a>&trade; and <a href="http://jzengarden.org/">jZenGarden</a>&trade;.
-    	    </p>
-		</div>
+        <div id="mMedia" class="clearfix">
+            <iframe class="vimeo" src="http://player.vimeo.com/video/23799119?title=0&amp;byline=0&amp;portrait=0" frameborder="0"></iframe>
+            <iframe class="slideshare" src="http://www.slideshare.net/slideshow/embed_code/7968308" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+        </div>
 
-		<div class="contributors">
-			<h2>Elders Council</h2>
-		    <p>The  purpose of the Elders Council is to be available for guidance and  support to the various initiatives and to be available to respond to  community questions and concerns. It is important to note that the  Elders Council is not a leadership team, but rather an advisory resource  comprised of people with long term experience in the Joomla! project,  the wider Free Software Movement and the respect of the community.
-		    </p>
-		    <ul>
-		      <li>
-		      <a href="http://twitter.com/willebil">Wilco Jansen </a>
-		      </li>
-		      <li>
-		      <a href="http://twitter.com/johanjanssens">Johan Janssens</a>
-		      </li>
-		      <li>
-		      <a href="http://twitter.com/ot2sen">Ole Bang Ottosen</a>
-		      </li>
-		    </ul>
-		</div>
+        <div class="contributors">
+            <h2>Contributors</h2>
+            <ul>
+                <li>
+                <a href="http://twitter.com/AmyStephen">Amy Stephen</a>
+                </li>
+                <li>
+                <a href="http://twitter.com/crossinghippos">Babs Gösgens</a>
+                </li>
+                <li>
+                <a href="http://twitter.com/nightshiftc">Cristina Solana</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="divvy">
+            <h1>All Together, As A Whole</h1>
+            <p>The goal of <a href="http://alltogetherasawhole.org/">All Together, As A Whole</a> (ATAAW) is to engage and empower the Joomla!&reg; community of developers  and site builders in order to increase our shared resources and  strengthen our ecosystem. ATAAW is a network of nearly 1,000 Joomla!  professionals. In its first year, ATAAW has accomplished a great deal,  including contributing to such projects as the <a href="http://magazine.joomla.org/">Joomla! Community Magazine</a>, <a href="http://joomlaforward.org/">Joomla! Forward</a>, <a href="http://joomstew.org/">JoomStew Radio,</a> and the <a href="http://twitter.com/ATAAWMovies">ATAAW Movies</a>.</p>
+            <p>ATAAW is very proud to introduce two new initiatives: <a href="http://molajo.org/">Molajo</a>&trade; and <a href="http://jzengarden.org/">jZenGarden</a>&trade;.
+            </p>
+        </div>
+
+        <div class="contributors">
+            <h2>Elders Council</h2>
+            <p>The  purpose of the Elders Council is to be available for guidance and  support to the various initiatives and to be available to respond to  community questions and concerns. It is important to note that the  Elders Council is not a leadership team, but rather an advisory resource  comprised of people with long term experience in the Joomla! project,  the wider Free Software Movement and the respect of the community.
+            </p>
+            <ul>
+                <li>
+                <a href="http://twitter.com/willebil">Wilco Jansen </a>
+                </li>
+                <li>
+                <a href="http://twitter.com/johanjanssens">Johan Janssens</a>
+                </li>
+                <li>
+                <a href="http://twitter.com/ot2sen">Ole Bang Ottosen</a>
+                </li>
+            </ul>
+        </div>
+
     </div>
-  </div>
-  
-	</div>
-    <footer>
-		<p>©2010-2011 <a href="http://www.alltogetherasawhole.org">All Together As A Whole</a>. All rights reserved.</p>
-    </footer>
-  </div>
-
-  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-  <script>!window.jQuery && document.write('<script src="js/jquery-1.4.2.min.js"><\/script>')</script>-->
-  <script src="js/contactSlider.js?v=1"></script>
-  <script src="js/plugins.js?v=1"></script>
-  <script src="js/script.js?v=1"></script>
+</div>
+<footer>
+<p>©2010-2012 <a href="http://www.alltogetherasawhole.org">All Together As A Whole</a>. All rights reserved.</p>
+</footer>
 
   <!--[if lt IE 7 ]>
     <script src="js/dd_belatedpng.js?v=1"></script>
   <![endif]-->
-
-  <script src="js/profiling/yahoo-profiling.min.js?v=1"></script>
-  <script src="js/profiling/config.js?v=1"></script>
 
   <script>
    var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
