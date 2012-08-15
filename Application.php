@@ -381,7 +381,7 @@ Class Application
 		if (file_exists(Services::Registry()->get('Parameters', 'theme_path_include'))) {
 		} else {
 			Services::Error()->set(500, 'Theme Not found');
-			echo 'Theme nott found - application stopped before parse. Parameters follow:';
+			echo 'Theme not found - application stopped before parse. Parameters follow:';
 			Services::Registry()->get('Parameters', '*');
 			die;
 		}
